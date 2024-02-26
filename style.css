@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .h-container {
+    display: flex;
+    /* box-shadow: 5px black; */
+    box-shadow: 0px 0px 5px #888888 inset;
+    
+  }
+  header p {
+    flex-grow: 1;
+    padding: 10px;
+  }
+  header span {
+    font-weight: 700;
+  }
+  nav {
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+    /* float: right; */
+    padding: 10px;
+    padding-top: 10px;
+    font-weight: 300;
+  }
+  .m-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .m-container1 {
+    background-image: url(IMG-20240220-WA0004.jpg);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 500px;
+  }
+  .m-container2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .m-container2-1 {
+    display: flex;
+    flex-direction: row;
+    /* text-wrap: nowrap; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .box1 {
+    background-image: url(IMG-20240220-WA0003.jpg);
+    height: 170px;
+    width: 230px;
+    /* background: red; */
+    background-size: 230px 170px;
+    margin-bottom: 10px;
+  }
+  .box2 {
+    background-image: url(IMG-20240220-WA0002.jpg);
+    height: 170px;
+    width: 230px;
+    /* background: palegreen; */
+    background-size: 230px 170px;
+  }
+  .box3 {
+    background-image: url(IMG-20240220-WA0012.jpg);
+    height: 170px;
+    width: 230px;
+    background-size: 230px 170px;
+  }
+  .box4 {
+    background-image: url(IMG-20240220-WA0011.jpg);
+    height: 170px;
+    width: 230px;
+    background-size: 230px 170px;
+  }
+  .box5 {
+    background-image: url(IMG-20240220-WA0003.jpg);
+    height: 170px;
+    width: 230px;
+    background-size: 230px 170px;
+  }
+  .box6 {
+    background-image: url(IMG-20240220-WA0012.jpg);
+    height: 170px;
+    width: 230px;
+    background-size: 230px 170px;
+  }
+  .box7 {
+    background-image: url(IMG-20240220-WA0011.jpg);
+    height: 170px;
+    width: 230px;
+    background-size: 230px 170px;
+  }
+  .box8 {
+    background-image: url(IMG-20240220-WA0005.jpg);
+    height: 170px;
+    width: 230px;
+    background-size: 230px 170px;
+  }
+  .m-container3{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    filter: saturate(20%);
+
+    
+  }
+  .m-container3-1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+  .box9 {
+    /* height: 170px; */
+    width: 230px;
+  }
+  .box10 {
+    /* height: 170px; */
+    width: 230px;
+  }
+  .box11 {
+    /* height: 170px; */
+    width: 230px;
+  }
+  .box12 {
+    /* height: 170px; */
+    width: 230px;
+  }
+  img{
+    height: 170px;
+    width: 230px;
+  }
+  .m-container3-1 button{
+    text-align: center;
+    padding-left: 88px;
+    padding-right: 89px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: none;
+  }
+.container4{
+padding-bottom: 30px;
+}
+.container4 p{
+    padding-bottom: 10px;
+}
+form input{
+    width: 100%;
+    padding-top:5px ;
+    padding-bottom:5px ;
+
+}
+form button{
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    box-shadow: none;
+}
+.m-container5{
+    background-image: url(IMG-20240220-WA0005.jpg);
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10px;
+    background-size: 100% 500px;
+
+
+}
+.f-container{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.f-container p{
+    padding: 10px;
+}
+@media only screen and (max-width: 650px) {
+    
+    .m-container1{
+        height: 300px;
+        background-size: 100% 300px;
+
+    }
+    .m-container5{
+        height: 300px;
+        background-size: 100% 300px;
+
+    }
+    
+}
+@media only screen and (max-width: 400px) {
+    
+    .m-container1{
+        height: 200px;
+        background-size: 100% 200px;
+
+    }
+    .m-container5{
+        height: 200px;
+        background-size: 100% 200px;
+
+    }
+    
+}
